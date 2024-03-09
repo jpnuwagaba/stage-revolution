@@ -1,5 +1,6 @@
 import AboutUsSection from "@/components/AboutUsSection";
 import CallToLiveCall from "@/components/CallToLiveCall";
+import ContactSection from "@/components/ContactSection";
 import FeaturedArtists from "@/components/FeaturedArtists";
 import HeroSection from "@/components/HeroSection";
 import Portfolio from "@/components/Portfolio";
@@ -19,15 +20,18 @@ export default function Home() {
         <div id="services-section">
           <Services />
         </div>
+        <div id="portfolio-section">
+          <Portfolio />
+        </div>
         {/* <div id="featured-artists-section">
           <FeaturedArtists />
         </div> */}
         <div id="call-to-live-call-section">
           <CallToLiveCall />
         </div>
-        {/* <div id="portfolio-section">
-          <Portfolio />
-        </div> */}
+        <div id="contact-section">
+          <ContactSection />
+        </div>
       </div>
     </>
   );

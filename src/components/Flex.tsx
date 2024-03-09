@@ -9,9 +9,9 @@ const Flex:FC<Props> = ({child1, child2}) => {
   return (
     <>
       <div className="container">
-        <div className="flex flex-col items-start lg:flex-row lg:items-center">
-          <div className='flex-1'>{child1}</div>
-          <div className='flex-1'>{child2}</div>
+        <div className="flex flex-col items-start lg:flex-row">
+          <div className='flex-1 w-full'>{child1}</div>
+          <div className='flex-1 w-full'>{child2}</div>
         </div>
       </div>
     </>

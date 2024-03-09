@@ -8,3 +8,32 @@ child2={
             
           </>
         }
+
+/**
+ * v0 by Vercel.
+ * @see https://v0.dev/t/70ojVBAebSw
+ * Documentation: https://v0.dev/docs#integrating-generated-code-into-your-nextjs-app
+ */
+import { CardTitle, CardDescription, CardHeader, CardContent, CardFooter, Card } from "@/components/ui/card"
+import { Label } from "@/components/ui/label"
+import { Input } from "@/components/ui/input"
+import { Textarea } from "@/components/ui/textarea"
+import { Button } from "@/components/ui/button"
+
+export default function Component() {
+  return (
+    <Card className="w-full max-w-lg">
+      <CardHeader>
+        <CardTitle>Contact us</CardTitle>
+        <CardDescription>Please fill out the form below to contact our support team.</CardDescription>
+      </CardHeader>
+      <CardContent className="grid gap-4">
+        
+      </CardContent>
+      <CardFooter>
+        <Button className="ml-auto">Submit</Button>
+      </CardFooter>
+    </Card>
+  )
+}
+

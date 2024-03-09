@@ -11,7 +11,7 @@ const HeroSection = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black/50 z-10"></div>
         <Image
           className="absolute top-0 left-0 z-5"
-          src={"/assets/hero.jpg"}
+          src={"/assets/hero1.jpg"}
           alt="alt"
           layout="fill"
           objectFit="cover"

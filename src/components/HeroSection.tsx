@@ -35,7 +35,7 @@ const HeroSection = () => {
                 Experience the magic of live music with us. Unleash the power of
                 live entertainment with Stage Revolution. Join us in creating
                 unforgettable events and performances. Discover the difference
-                with Stage Revolution. Let's make your event truly special.
+                with Stage Revolution. Let&apos;s make your event truly special.
               </p>
               <div className="m-auto md:m-0">
               <div className="flex flex-row gap-4 items-center">

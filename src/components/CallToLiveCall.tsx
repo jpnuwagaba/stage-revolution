@@ -10,7 +10,7 @@ const CallToLiveCall = () => {
         <div className="absolute top-0 left-0 w-full h-full bg-black/65 z-10"></div>
         <Image
           className="absolute top-0 left-0 z-5"
-          src={"/assets/mastery.jpg"}
+          src={"/assets/mastery1.jpg"}
           alt="alt"
           layout="fill"
           objectFit="cover"
